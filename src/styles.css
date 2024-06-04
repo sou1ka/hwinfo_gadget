@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'Migu1C';
+	src: url("assets/migu-1c-regular.ttf");
+}
+
+@font-face {
+	font-family: 'Migu1C-bold';
+	src: url("assets/migu-1c-bold.ttf");
+}
+
+:root {
+  font-family: Migu1C, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 68%;
+  line-height: 16px;
+
+  color: #bfbfbf;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgba(10,14,10, .8);
+  border-radius: 10px;
+  padding: 1px 20px;
+}
+
+#container dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#container dl dt {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+}
+
+#container dl dd {
+  width: 30%;
+  padding: 0;
+  margin: 0;
+}
