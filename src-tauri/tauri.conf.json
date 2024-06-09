@@ -6,7 +6,7 @@
   },
   "package": {
     "productName": "hwinfo_gadget",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -41,7 +41,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.sou1ka.tauri.hwinfo_gadget",
+      "identifier": "com.sou1ka.tauri.hwinfo-gadget",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
